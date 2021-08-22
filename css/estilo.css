@@ -1,0 +1,30 @@
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/MinecraftRegular-Bmg3.otf);
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    width: 100vw;
+}
+.font{
+    color: #ffff;
+    font-family: minecraft;
+    text-shadow: #000 3px 3px;
+}
+#relogio{
+    font-size: clamp(5rem,7vw,6rem);
+    letter-spacing: .2rem;
+}
+#mensagem{
+    text-align: center;
+    font-size: 27px;
+    text-shadow: #000 2px 2px;
+}
