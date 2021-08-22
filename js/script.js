@@ -12,7 +12,7 @@ function relogio(){
         document.getElementById('relogio').innerHTML=`${horas}:${minutos}`
 }
 function fundo(){
-    var img = Math.floor(Math.random() * 16+1);
+    var img = Math.floor(Math.random() * 17+1);
     document.body.style.background = `url('imagem/${img}.gif')`;
     document.body.style.backgroundRepeat= 'no-repeat';
     document.body.style.backgroundSize= 'cover';
